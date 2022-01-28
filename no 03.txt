@@ -1,0 +1,33 @@
+#Write a program to perform different arithmetic operations on numbers in python
+
+#INPUT:
+
+num1 = float(input('Enter fno: '))  
+num2 = float(input('Enter sno: ')) 
+#Addition of two numbers
+Addition = num1 + num2
+#Substraction of two numbers
+Substraction = num1 - num2 
+#Multiplication of two numbers
+Multiplication = num1 * num2
+#Division of two numbers
+Division = num1 / num2 
+# Display the sum  
+print('The Addition of {0} and {1} is {2}'.format(num1, num2, Addition))  
+# Display the subtraction  
+print('The Subtraction of {0} and {1} is {2}'.format(num1, num2, Substraction))  
+# Display the multiplication  
+print('The Multiplication of {0} and {1} is {2}'.format(num1, num2, Multiplication))  
+# Display the division  
+print('The Division of {0} and {1} is {2}'.format(num1, num2, Division)) 
+
+OUTPUT:
+
+Enter fno: 
+11
+Enter sno: 
+2
+The Addition of 11.0 and 2.0 is 13.0
+The Subtraction of 11.0 and 2.0 is 9.0
+The Multiplication of 11.0 and 2.0 is 22.0
+The Division of 11.0 and 2.0 is 5.5
