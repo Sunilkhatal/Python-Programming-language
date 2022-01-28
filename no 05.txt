@@ -1,0 +1,25 @@
+# Write a program to create,append and remove lists in python
+
+#INPUT
+
+subject=['maths','ADE','EM&I','EEGS','ECT']
+language=['c','c++','python','java','SQL']
+players=['Himani Barab','Virat Kohli','Sunil Chhetri','Mahendrasing Dhoni']
+print("subject are:",subject)
+print("language are:",language)
+print("players are:",players)
+subject.append('COI')
+print("updated subject are:",subject)
+language.remove('SQL')
+print("updated language are:",language)
+players.insert(1,"Mahendrasing Dhoni")
+print("updated players are:",players)
+
+OUTPUT:-
+
+subject are: ['maths', 'ADE', 'EM&I', 'EEGS', 'ECT']
+language are: ['c', 'c++', 'python', 'java', 'SQL']
+players are: ['Himani Barab', 'Virat Kohli', 'Sunil Chhetri', 'Mahendrasing Dhoni']
+updated subject are: ['maths', 'ADE', 'EM&I', 'EEGS', 'ECT', 'COI']
+updated language are: ['c', 'c++', 'python', 'java']
+updated players are: ['Himani Barab', 'Mahendrasing Dhoni', 'Virat Kohli', 'Sunil Chhetri', 'Mahendrasing Dhoni']
