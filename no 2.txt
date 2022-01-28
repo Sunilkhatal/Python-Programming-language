@@ -1,0 +1,87 @@
+# Write a program to demonstrate different number data types in python
+INPUT:
+ 
+#integer
+x = 50
+print(x)
+print(type(x))
+
+#float
+x = 50.5 
+print(x)
+print(type(x))
+
+#complex
+x = 1+10j       
+print(x)
+print(type(x))
+
+#string
+x = "python"   
+print(x)
+print(type(x))
+
+#dict
+x = {"name" : "aman", "age" : 36} 
+print(x)
+print(type(x))
+
+#list
+x = ["learn", "Edu", "python"]
+print(x)
+print(type(x))
+
+#tuple
+x = ("Python", "on", "w3scools")
+print(x)
+print(type(x))
+
+#bool
+x = True
+print(x)
+print(type(x))
+
+#bytes
+x = b"Hello"
+print(x)
+print(type(x))
+
+#set
+x = {"data", "python", "language"}
+print(x)
+print(type(x))
+
+#frozenset
+x = frozenset({"github", "w3schools", "apnikasha"})
+print(x)
+print(type(x))
+
+
+OUTPUT:
+
+50
+<class 'int'>
+50.5
+<class 'float'>
+(1+10j)
+<class 'complex'>
+python
+<class 'str'>
+{'name': 'aman', 'age': 36}
+<class 'dict'>
+['learn', 'Edu', 'python']
+<class 'list'>
+('Python', 'on', 'w3scools')
+<class 'tuple'>
+True
+<class 'bool'>
+b'Hello'
+<class 'bytes'>
+{'language', 'data', 'python'}
+<class 'set'>
+frozenset({'apnikasha', 'github', 'w3schools'})
+<class 'frozenset'>
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
