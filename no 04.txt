@@ -1,0 +1,27 @@
+#Write a program to create, concatenate and print a string and accessing sub-string 
+  from a given string.
+
+#INPUT:
+
+a=input("enter the first string: ");
+b=input("enter the second string: ");
+print("first string is: ",a);
+print("second string is; ",b);
+print("concatenation of two string: ", a+b);
+print("substring of given string: ",a[0:5]);
+
+OUTPUT:
+
+enter the first string: 
+ELECTRICAL 
+enter the second string: 
+ENGINEERING
+first string is:  ELECTRICAL 
+second string is;  ENGINEERING
+concatenation of two string:  ELECTRICAL ENGINEERING
+substring of given string:  ELECT
+
+
+
+
+
