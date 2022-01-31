@@ -1,0 +1,34 @@
+#Write a python script that print prints prime numbers less than 20.
+
+#INPUT:
+
+start_value = int(input ("Enter the start Range Value: "))  
+end_value = int(input ("Enter the end Range Value: "))  
+  print ("The Prime number upto to end_value: ")  
+for number in range (start_value, end_value + 1):  
+    if number > 1:  
+        for i in range (2, number):  
+            if (number % i) == 0:  
+                break  
+        else:  
+            print (number)  
+
+OUTPUT:
+
+Enter the start Range Value: 
+1
+Enter the end Range Value: 
+20
+The Prime number upto to end_value: 
+2
+3
+5
+7
+11
+13
+17
+19
+
+
+
+
