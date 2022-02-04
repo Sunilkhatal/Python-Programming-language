@@ -1,0 +1,14 @@
+#Write a python program using numpy to sort the elements in the given array.
+
+#INPUT:
+
+import numpy as np
+arr = np.array(['banana', 'cherry', 'apple'])
+print("original array:",arr)
+arr.sort()
+print("sorted array:",arr)
+
+OUTPUT:
+
+original array: ['banana' 'cherry' 'apple']
+sorted array: ['apple' 'banana' 'cherry']
